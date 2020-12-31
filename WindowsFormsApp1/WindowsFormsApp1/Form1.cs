@@ -85,8 +85,6 @@ namespace WindowsFormsApp1
                 progressReport.PercentComplete = 22; progress.Report(progressReport);
                 wc.DownloadFile("https://media.forgecdn.net/files/2820/815/OreLib-1.12.2-3.6.0.1.jar", link.Text + "/mods/OreLib.jar");
                 progressReport.PercentComplete = 28; progress.Report(progressReport);
-                wc.DownloadFile("https://optifine.net/downloadx?f=OptiFine_1.12.2_HD_U_F5.jar&x=bb09b6947928b5ebe48fff211801321d", link.Text + "/mods/OptiFine_1.12.2_HD_U_F5.jar");
-                progressReport.PercentComplete = 30; progress.Report(progressReport);
                 wc.DownloadFile("https://media.forgecdn.net/files/3061/229/openmodularturrets-1.12.2-3.1.12-378.jar", link.Text + "/mods/openmodularTurrets-1.12.2.jar");
                 progressReport.PercentComplete = 36; progress.Report(progressReport);
                 wc.DownloadFile("https://media.forgecdn.net/files/2871/957/omlib-1.12.2-3.1.4-249.jar", link.Text + "/mods/omlib.1.12.2.jar");
